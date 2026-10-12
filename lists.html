@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Фочук Максим">
+    <title>Списки — Аптека "ФармаПлюс"</title>
+    <link rel="stylesheet" href="style.css" id="main-styles" title="Основні стилі" lang="uk" sizes="any">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Аптека "ФармаПлюс"</h1>
+            <p>Інформаційні списки та довідник</p>
+            <nav class="main-nav">
+                <a href="index.html" title="Головна сторінка">Головна (Автор)</a> | 
+                <a href="about.html" title="Про аптеку">Про аптеку</a> | 
+                <a href="news.html" title="Новини аптеки">Новини</a> | 
+                <a href="lists.html" title="Інформаційні списки">Списки</a> | 
+                <a href="menu.html" title="Карта меню та посилань">Меню</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content-box">
+        <marquee direction="left" behavior="scroll" truespeed bgcolor="#e2f0f0">
+            Ласкаво просимо! Ознайомтеся з правилами замовлення, категоріями товарів та нашою аптекою "ФармаПлюс".
+        </marquee>
+
+        <h2>Інформація про аптечний заклад у списках</h2>
+
+        <h3>1. Етапи отримання ліків за рецептом (Нумерований список)</h3>
+        <ol start="1" class="custom-ol">
+            <li id="step1" dir="ltr" value="1"><nobr class="bold-text">Крок 1:</nobr> Отримання електронного рецепта у сімейного лікаря.</li>
+            <li id="step2" dir="ltr" value="2"><nobr class="bold-text">Крок 2:</nobr> Надання номеру рецепта та коду підтвердження фармацевту.</li>
+            <li id="step3" dir="ltr" value="3"><nobr class="bold-text">Крок 3:</nobr> Перевірка терміну придатності та видача медикаментів.</li>
+        </ol>
+
+        <h3>2. Основні категорії товарів (Маркований список)</h3>
+        <ul id="categories-ul" style="list-style-type: disc;">
+            <li dir="ltr">Рецептурні та безрецептурні медикаменти</li>
+            <li dir="ltr">Вітаміни, мікроелементи та БАДки</li>
+            <li dir="ltr">Медична техніка (<bdi class="brand-name">Omron</bdi>, <bdi class="brand-name">Microlife</bdi>)</li>
+            <li dir="ltr">Засоби гігієни та антисептики</li>
+        </ul>
+
+        <h3>3. Фармацевтичний словник (Список визначень)</h3>
+        <dl class="pharmacy-dl" style="margin-left: 10px;">
+            <dt><b>БАД (Біологічно активна добавка)</b></dt>
+            <dd id="def-bad" dir="ltr">Спеціальний харчовий продукт, що доповнює звичайний раціон дієтичними речовинами.</dd>
+            
+            <dt><b>МНН (Міжнародна непатентована назва)</b></dt>
+            <dd id="def-mnn" dir="ltr">Унікальна назва діючої речовини лікарського засобу, рекомендована ВООЗ.</dd>
+            
+            <dt><b>Термін придатності</b></dt>
+            <dd id="def-shelf" dir="ltr">Гарантований період, протягом якого лікарський засіб зберігає свою ефективність та безпеку.</dd>
+        </dl>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Аптека "ФармаПлюс"</p>
+    </footer>
+</body>
+</html>

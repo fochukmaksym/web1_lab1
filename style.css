@@ -122,3 +122,40 @@ footer {
     margin-top: 40px;
     border-top: 1px solid #b2d8d8;
 }
+
+marquee {
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #006666;
+    margin-bottom: 20px;
+}
+
+ol.custom-ol {
+    padding-left: 20px;
+}
+
+ol.custom-ol li {
+    margin-bottom: 8px;
+}
+
+.bold-text {
+    font-weight: bold;
+    color: #006666;
+}
+
+dl.pharmacy-dl dt {
+    font-weight: bold;
+    color: #006666;
+    margin-top: 10px;
+}
+
+dl.pharmacy-dl dd {
+    margin-left: 20px;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+menuitem.menu-item-link {
+    font-size: 1.05rem;
+}
