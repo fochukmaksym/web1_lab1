@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Фочук Максим">
+    <title>Таблиці товарів — Аптека "ФармаПлюс"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Аптека "ФармаПлюс"</h1>
+            <p>Каталог медичних товарів</p>
+            <nav class="main-nav">
+                <a href="index.html" title="Головна сторінка">Головна (Автор)</a> | 
+                <a href="about.html" title="Про аптеку">Про аптеку</a> | 
+                <a href="news.html" title="Новини аптеки">Новини</a> | 
+                <a href="lists.html" title="Інформаційні списки">Списки</a> | 
+                <a href="menu.html" title="Карта меню та посилань">Меню</a> | 
+                <a href="tables.html" title="Таблиці товарів">Таблиці</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content-box">
+        <h2>Асортимент товарів</h2>
+
+        <table rules="all" cellspacing="0" id="pharmacy-table" class="custom-table" style="width: 100%;">
+            <colgroup id="col-group-id" title="Групування колонок таблиці" lang="uk" dir="ltr"></colgroup>
+            <caption id="table-caption" title="Офіційний каталог аптеки">Розподіл медикаментів за видами:</caption>
+            
+            <thead>
+                <tr bgcolor="#e2f0f0" id="header-row-1" class="main-head" style="font-weight: bold;">
+                    <th rowspan="2" class="th-class" style="text-align: center;" title="Категорія">Вид товару</th>
+                    <th colspan="4" class="th-class" style="text-align: center;" title="Марка та Найменування">Марка та Найменування</th>
+                    <th colspan="2" class="th-class" style="text-align: center;" title="Умови та Вартість">Умови та Вартість</th>
+                </tr>
+                <tr bgcolor="#edf5f5" id="header-row-2" class="sub-head">
+                    <th class="th-class" style="text-align: center;" title="Бренд">Бренд</th>
+                    <th class="th-class" style="text-align: center;" title="Препарат">Назва засобу</th>
+                    <th class="th-class" style="text-align: center;" title="Форма">Форма</th>
+                    <th class="th-class" style="text-align: center;" title="Дозування">Дозування</th>
+                    <th class="th-class" style="text-align: center;" title="Термін">Термін придатності</th>
+                    <th class="th-class" style="text-align: center;" title="Ціна">Ціна (грн)</th>
+                </tr>
+            </thead>
+
+            <tbody valign="middle" style="background-color: #ffffff;" title="Дані асортименту">
+                <tr bgcolor="#ffffff" id="row-1" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td rowspan="4" align="center" dir="ltr" style="vertical-align: middle; font-weight: bold; background-color: #f9fbfb;" width="25%">Знеболювальні та протизастудні</td>
+                    <td rowspan="2" align="left" dir="ltr" style="vertical-align: middle;" width="15%">Здоров'я</td>
+                    <td align="left" dir="ltr" width="20%"><b>Парацетамол</b></td>
+                    <td align="center" dir="ltr" width="10%">Таб.</td>
+                    <td align="center" dir="ltr" width="10%">500 мг</td>
+                    <td align="center" dir="ltr" width="10%">12/2027</td>
+                    <td align="right" dir="ltr" width="10%"><b>45.50</b></td>
+                </tr>
+                <tr bgcolor="#ffffff" id="row-2" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td align="left" dir="ltr"><b>Анальгін</b></td>
+                    <td align="center" dir="ltr">Таб.</td>
+                    <td align="center" dir="ltr">500 мг</td>
+                    <td align="center" dir="ltr">11/2027</td>
+                    <td align="right" dir="ltr"><b>38.00</b></td>
+                </tr>
+                <tr bgcolor="#ffffff" id="row-3" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td rowspan="2" align="left" dir="ltr" style="vertical-align: middle;">Дарниця</td>
+                    <td align="left" dir="ltr"><b>Цитрамон</b></td>
+                    <td align="center" dir="ltr">Таб.</td>
+                    <td align="center" dir="ltr">400 мг</td>
+                    <td align="center" dir="ltr">09/2027</td>
+                    <td align="right" dir="ltr"><b>25.00</b></td>
+                </tr>
+                <tr bgcolor="#ffffff" id="row-4" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td align="left" dir="ltr"><b>Авторизований спазмалгон</b></td>
+                    <td align="center" dir="ltr">Таб.</td>
+                    <td align="center" dir="ltr">500 мг</td>
+                    <td align="center" dir="ltr">06/2027</td>
+                    <td align="right" dir="ltr"><b>65.00</b></td>
+                </tr>
+
+                <tr bgcolor="#fcfdfd" id="row-5" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td rowspan="4" align="center" dir="ltr" style="vertical-align: middle; font-weight: bold; background-color: #f4f9f9;">Вітаміни та БАДи</td>
+                    <td rowspan="2" align="left" dir="ltr" style="vertical-align: middle;">Bayer</td>
+                    <td align="left" dir="ltr"><b>Vitamin C</b></td>
+                    <td align="center" dir="ltr">Шипучі</td>
+                    <td align="center" dir="ltr">1000 мг</td>
+                    <td align="center" dir="ltr">10/2028</td>
+                    <td align="right" dir="ltr"><b>180.00</b></td>
+                </tr>
+                <tr bgcolor="#fcfdfd" id="row-6" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td align="left" dir="ltr"><b>Magnesium Direct</b></td>
+                    <td align="center" dir="ltr">Стік</td>
+                    <td align="center" dir="ltr">400 мг</td>
+                    <td align="center" dir="ltr">04/2028</td>
+                    <td align="right" dir="ltr"><b>210.00</b></td>
+                </tr>
+                <tr bgcolor="#fcfdfd" id="row-7" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td rowspan="2" align="left" dir="ltr" style="vertical-align: middle;">Solgar</td>
+                    <td align="left" dir="ltr"><b>Zinc Pickulate</b></td>
+                    <td align="center" dir="ltr">Капсули</td>
+                    <td align="center" dir="ltr">22 мг</td>
+                    <td align="center" dir="ltr">01/2029</td>
+                    <td align="right" dir="ltr"><b>450.00</b></td>
+                </tr>
+                <tr bgcolor="#fcfdfd" id="row-8" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td align="left" dir="ltr"><b>Omega-3 Fish Oil</b></td>
+                    <td align="center" dir="ltr">Капсули</td>
+                    <td align="center" dir="ltr">950 мг</td>
+                    <td align="center" dir="ltr">07/2029</td>
+                    <td align="right" dir="ltr"><b>890.00</b></td>
+                </tr>
+
+                <tr bgcolor="#ffffff" id="row-9" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td rowspan="4" align="center" dir="ltr" style="vertical-align: middle; font-weight: bold; background-color: #f9fbfb;">Лікувальна косметика</td>
+                    <td rowspan="2" align="left" dir="ltr" style="vertical-align: middle;">La Roche-Posay</td>
+                    <td align="left" dir="ltr"><b>Effaclar Duo+</b></td>
+                    <td align="center" dir="ltr">Крем</td>
+                    <td align="center" dir="ltr">40 мл</td>
+                    <td align="center" dir="ltr">05/2028</td>
+                    <td align="right" dir="ltr"><b>720.00</b></td>
+                </tr>
+                <tr bgcolor="#ffffff" id="row-10" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td align="left" dir="ltr"><b>Effaclar Gel</b></td>
+                    <td align="center" dir="ltr">Гель</td>
+                    <td align="center" dir="ltr">200 мл</td>
+                    <td align="center" dir="ltr">12/2028</td>
+                    <td align="right" dir="ltr"><b>580.00</b></td>
+                </tr>
+                <tr bgcolor="#ffffff" id="row-11" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td rowspan="2" align="left" dir="ltr" style="vertical-align: middle;">CeraVe</td>
+                    <td align="left" dir="ltr"><b>Зволожуючий лосион</b></td>
+                    <td align="center" dir="ltr">Лосьйон</td>
+                    <td align="center" dir="ltr">236 мл</td>
+                    <td align="center" dir="ltr">09/2028</td>
+                    <td align="right" dir="ltr"><b>540.00</b></td>
+                </tr>
+                <tr bgcolor="#ffffff" id="row-12" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td align="left" dir="ltr"><b>Зволожуючий крем</b></td>
+                    <td align="center" dir="ltr">Крем</td>
+                    <td align="center" dir="ltr">177 мл</td>
+                    <td align="center" dir="ltr">03/2028</td>
+                    <td align="right" dir="ltr"><b>490.00</b></td>
+                </tr>
+
+                <tr bgcolor="#fcfdfd" id="row-13" class="data-row" style="border-bottom: 1px solid #ddd;">
+                    <td rowspan="1" align="center" dir="ltr" style="vertical-align: middle; font-weight: bold; background-color: #f4f9f9;">Медична техніка</td>
+                    <td align="left" dir="ltr">Omron</td>
+                    <td align="left" dir="ltr"><b>Тонометр M2</b></td>
+                    <td align="center" dir="ltr">Платформа</td>
+                    <td align="center" dir="ltr">Базовий</td>
+                    <td align="center" dir="ltr">Безстроково</td>
+                    <td align="right" dir="ltr"><b>1650.00</b></td>
+                </tr>
+
+                <tr bgcolor="#f9fbfb" id="row-14" class="data-row">
+                    <td colspan="6" align="left" dir="ltr" style="padding-left: 15px;"><i>Всього найменувань у каталозі:</i></td>
+                    <td align="center" dir="ltr"><b>13 позицій</b></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Аптека "ФармаПлюс"</p>
+    </footer>
+</body>
+</html>
